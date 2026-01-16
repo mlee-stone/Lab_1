@@ -1,0 +1,236 @@
+/* =========================
+   Base styles (minimal) -- Feel free to change these to match your style!
+   ========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #fff;
+}
+
+/* =========================
+   Accessibility
+   ========================= */
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 0.5rem;
+  background: #000;
+  color: #fff;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* =========================
+   Global spacing
+   ========================= */
+
+header,
+main,
+footer,
+section {
+  padding: 1rem;
+}
+
+/* =========================
+   Typography (intentionally plain)
+   ========================= */
+
+h1,
+h2 {
+  line-height: 1.25;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* =========================
+   Forms (bare minimum)
+   ========================= */
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+/*
+  Everything else is intentionally left for you to design:
+  - layout
+  - hierarchy
+  - spacing
+  - emphasis
+  - visual grouping
+*/
+
+/* BODY FORMATTING */
+.full_window {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+
+}
+
+.left_column, .right_column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HEADER */
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 20px;
+ background-color:#626237;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  align-items: left;
+}
+
+nav {
+  display: flex;
+  align-content: right;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 10px
+}
+
+nav a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.login {
+  padding-left: 30px;
+}
+
+/* KEY INFORMATION */
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 45px;
+  text-decoration: none;
+  color: #626237;
+  margin: 0%;
+}
+
+.date {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #4D4D4D;
+  margin: 0%;
+}
+
+.price {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #B15912;
+  margin-bottom: 3%;
+  margin-top:0%;
+}
+
+.icon {
+  width: 25px;
+  height: auto;
+  position: relative;
+  top: 0px; 
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  color: #4D4D4D;
+  margin-bottom: 0%;
+  margin-top:0%;
+}
+
+.more-info {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  color: #4D4D4D;
+  margin-bottom: 5%;
+  margin-top:0%;
+}
+
+/* BUTTON */
+button {
+padding-left: 55px;
+padding-right: 55px;
+padding-top: 15px;
+padding-bottom: 15px;
+display: flex;
+background-color: #B15912;
+color: #fff;
+border-radius: 10px;
+font-family: 'Poppins', sans-serif;
+font-size: 17px;
+}
+
+.crop_box {
+  width: 533px;
+  height: 714px;
+  overflow: hidden;
+  position: relative;
+}
+
+.crop_box img {
+  width: 1080px;
+  height: 725px;
+  position: absolute; 
+  left: -200px;
+  top: 0;
+}
+
+footer {
+  width: 100%;
+  
+}
