@@ -23,6 +23,7 @@ A simple landing page for a mushroom foraging workshop registration.
 ---
 
 ## Visuals
+<img width="1920" height="2302" alt="Mushrooms Workshop " src="https://github.com/user-attachments/assets/6cffa1eb-e690-4516-8982-3b360ad8c9de" />
 
 
 
@@ -31,7 +32,6 @@ A simple landing page for a mushroom foraging workshop registration.
 ## Design Documents
 
 View Mockup Documents: https://xd.adobe.com/view/a3e3f5dc-24b4-43e9-bf86-7aca5754abd7-f6b0/
-View Design Rationale: []
 
 ---
 
