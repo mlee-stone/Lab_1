@@ -23,7 +23,13 @@ A simple landing page for a mushroom foraging workshop registration.
 ---
 
 ## Visuals
-<img width="1920" height="2302" alt="Mushrooms Workshop " src="https://github.com/user-attachments/assets/6cffa1eb-e690-4516-8982-3b360ad8c9de" />
+
+<img width="500" height="auto" alt="Screenshot 2026-01-16 at 11 07 07 PM" src="https://github.com/user-attachments/assets/c42839a1-efff-42f0-88b2-e161ff1efa32" />
+<img width="500" height="auto" alt="Screenshot 2026-01-16 at 11 07 16 PM" src="https://github.com/user-attachments/assets/feaf3e70-5f46-4fa6-9ec9-617ce8b084f0" />
+
+Mock Up 
+<img width="500" height="auto" alt="Mushrooms Workshop " src="https://github.com/user-attachments/assets/6cffa1eb-e690-4516-8982-3b360ad8c9de" />
+
 
 
 
