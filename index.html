@@ -1,140 +1,143 @@
 <!doctype html>
-  <html lang="en">
-  
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
 
-    <title>Workshop Registration</title>
-    <meta name="description" content="Register for a free, in-person workshop." />
-
-    <link rel="stylesheet" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workshop Registration</title>
+  <meta name="description" content="Register for a free, in-person workshop." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Accessibility: allow keyboard users to skip repetitive content -->
-    <a href="#main" class="skip-link">Skip to main content</a>
+  <!-- Accessibility: allow keyboard users to skip repetitive content -->
 
-    <header>
-      <!-- Organization name or branding -->
-      <img class="logo" src="Assets/Mushroom Logo(B&W).png" alt="Mushrooms: Organic Mushroom Farming"></a>
-    
-      <!-- Navigation Bar -->
-      <nav class = main_nav> 
-        <ul>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-          <li class="login"><a href="#">Login</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header>
+    <!-- Organization name or branding -->
+    <img class="logo" src="Assets/Mushroom Logo(B&W).png" alt="Mushrooms: Organic Mushroom Farming">
+
+    <!-- Navigation Bar -->
+    <nav class="main_nav">
+      <ul>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+        <li class="login"><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main id="main">
-    <section class="full_window"> 
+    <section class="full_window">
       <section class="left_column">
         <div>
           <!-- Key details -->
-          <h1 class = "title">Wild Mushroom Workshop</h1>
-          <h3 class = "date">Saturday, July 23 | 2-3 PM   <img class="icon" src="Assets/icons/computer_icon.svg"></h3>
-          <h3 class = "price">Free</h3>
+          <h1 class="title">Wild Mushroom Workshop</h1>
+          <h3 class="date">Saturday, July 23 | 2-3 PM <img class="icon" src="Assets/icons/computer_icon.svg"></h3>
+          <h3 class="price">Free</h3>
 
           <!-- Supporting information -->
           <p class="description">Join us for a free to attend virtual wild mushroom workshop! Learn valuable skills such as</p>
-          
-          <ul class = "more-info">
+
+          <ul class="more-info">
             <li><strong>Identification:</strong> Safely identify edible mushrooms</li>
             <li><strong>Safety:</strong> Essentials for mushroom foraging</li>
             <li><strong>Technique:</strong> Ethical harvesting, cleaning, and storing</li>
             <li>And More!</li>
           </ul>
 
+          <div class="who_its_for">
+            <p><strong>Is this for you?</strong> This workshop is for the home chef who wants to elevate their cooking with a "forrest-to-table" experience.</p>
+            <br>
+          </div>
+
           <!-- Primary action: exactly one -->
-           <div class="please_center">
-              <button class="sign-up" href="#register">Register</button>
-           </div>
-        
+          <div class="please_center">
+            <button class="sign-up" href="#register">Register</button>
+          </div>
         </div>
       </section>
-    
+
       <section class="right_column">
-        <div class = "crop_box">
+        <div class="crop_box">
           <img src="Assets/MushroomBasket.jpg">
         </div>
       </section>
     </section>
 
-    <!-- REGISTRATION -->
-    <section id="register">
-      <h4>Registration</h4>
-      <p>Enter your information below to register, you will receive a confirmation email with Zoom details.</p>
+    <section class="full_window">
+      <section class="left_column">
+        <!-- REGISTRATION -->
+        <section id="register">
+          <h4>Registration</h4>
+          <p>Enter your information below to register, you will receive a confirmation email with Zoom details.</p>
 
-      <form class="registration" action="#" method="post">
-        <div class="spacing">
-           <!-- FULL NAME -->
-            <label for="fullName">Full Name</label>
-            <input type="text" id="fullName"
-            name="fullName" value="John Doe">
-            <br>
-            
-            <!-- EMAIL -->
-            <label for="email">Email</label>
-            <input type="text" id="userEmail"
-            email="userEmail" value="example@email.com" required>
-          </div>
-        
-        <!-- SUBMIT -->
-        <button type="submit" class="register_button" value="Register">Register</button>
-      </form>
+          <form class="registration" action="#" method="post">
+            <div class="spacing">
+              <!-- FULL NAME -->
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" value="John Doe">
+              <br>
 
-      <!-- QUESTIONS -->
-      <h4>Questions?</h4>
-      <p>If you have questions or concerns email <a href="mailto:info@mushrooms.com">info@mushrooms.com</a></p>
+              <!-- EMAIL -->
+              <label for="email">Email</label>
+              <input type="text" id="userEmail" email="userEmail" value="example@email.com" required>
+            </div>
+
+            <!-- SUBMIT -->
+            <button type="submit" class="register_button" value="Register">Register</button>
+          </form>
+
+          <!-- QUESTIONS -->
+          <h4>Questions?</h4>
+          <p>If you have questions or concerns email <a href="mailto:info@mushrooms.com">info@mushrooms.com</a></p>
+        </section>
+      </section>
     </section>
   </main>
 
   <!-- FOOTER -->
   <footer class="footer_box">
-      <!-- LOGO -->
-      <div class = "foot_col_1">
-        <img class="logo" src="Assets/Mushroom Logo(B&W).png" alt="Mushrooms: Organic Mushroom Farming"></a>
-        <p class="copyright">© 2026</p>
-      </div>
+    <!-- LOGO -->
+    <div class="foot_col_1">
+      <img class="logo" src="Assets/Mushroom Logo(B&W).png" alt="Mushrooms: Organic Mushroom Farming">
+      <p class="copyright">© 2026</p>
+    </div>
 
-      <!-- SUPPORT -->
-      <div class="foot_col_2">
-        <nav class="foot_nav">
-          <h4 class="footer_h4">Support</h4>
-          <ul>
-            <li href="#"><img class="phone_icon" src="Assets/icons/phone_icon.svg">  123-456-7890</li>
-            <li href="#"><img class="mail_icon" src="Assets/icons/mail_icon.svg">   info@mushrooms.com</li>
-          </ul>
-        </nav>
-      </div>
+    <!-- SUPPORT -->
+    <div class="foot_col_2">
+      <nav class="foot_nav">
+        <h4 class="footer_h4">Support</h4>
+        <ul>
+          <li><img class="phone_icon" src="Assets/icons/phone_icon.svg"> 123-456-7890</li>
+          <li><img class="mail_icon" src="Assets/icons/mail_icon.svg"> info@mushrooms.com</li>
+        </ul>
+      </nav>
+    </div>
 
-      <!-- About Us -->
-       <div class="foot_col_3">
-        <nav class="foot_nav">
-          <h4 class="footer_h4">About Us</h4>
-            <ul>
-              <li href="#">Page 1</li>
-              <li href="#">Page 2</li>
-            </ul>
-        </nav>
-       </div>
+    <!-- About Us -->
+    <div class="foot_col_3">
+      <nav class="foot_nav">
+        <h4 class="footer_h4">About Us</h4>
+        <ul>
+          <li>Page 1</li>
+          <li>Page 2</li>
+        </ul>
+      </nav>
+    </div>
 
-        <!-- More Coourses -->
-       <div class="foot_col_4">
-        <nav class="foot_nav">
-          <h4 class="footer_h4">More Courses</h4>
-            <ul>
-              <li href="#">Page 1</li>
-              <li href="#">Page 2</li>
-            </ul>
-        </nav>
-       </div>
-    </section>
+    <!-- More Courses -->
+    <div class="foot_col_4">
+      <nav class="foot_nav">
+        <h4 class="footer_h4">More Courses</h4>
+        <ul>
+          <li>Page 1</li>
+          <li>Page 2</li>
+        </ul>
+      </nav>
+    </div>
   </footer>
 </body>
+
 </html>
